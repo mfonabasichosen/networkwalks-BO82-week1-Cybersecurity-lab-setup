@@ -10,4 +10,5 @@ Step 4. Download & import Kali Linux Virtual Machine in your Virtualbox: https :
 Step 5. Setup the IP configuration of Kali Linux Step 
 6. Take snapshot of the VM
 
-<img width="1461" height="370" alt"image" src="https://github.com/user-attachments/assets/1ab429ba-63d6-4657-9c4c-70703009fd55" />
+<img width="1920" height="1080" alt="Screenshot_2026-08-09_19_03_48" src="https://github.com/user-attachments/assets/8ee5ef77-3247-46d8-a160-b1581e5c1a1a" />
+<img width="1920" height="1080" alt="Screenshot_2026-08-09_20_19_47" src="https://github.com/user-attachments/assets/96261fd0-e5b0-4825-9db9-d304e5b91279" />
