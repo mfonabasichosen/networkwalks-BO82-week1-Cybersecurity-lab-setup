@@ -1,7 +1,19 @@
+<h1 align="center">🔐 Cybersecurity Lab Environment Setup</h1>
 
-🔐 Cybersecurity Lab Environment Setup
+---
 
-Building an isolated virtual lab for penetration testing and ethical hacking practice
+<p align="center"><strong>Building an isolated virtual lab for penetration testing and ethical hacking practice</strong></p>
+
+![Skill](https://img.shields.io/badge/Skill-Cybersecurity-red)
+![Ver](https://img.shields.io/badge/Ver-Virtualbox_v7.2-blue)
+![Kali](https://img.shields.io/badge/Kali-Linux-blueviolet?&logoColor=white)
+![Version](https://img.shields.io/badge/v2026.1-orange)
+![Network](https://img.shields.io/badge/Network-10.0.0.0%2F24-14b8a6)
+![Pentest](https://img.shields.io/badge/Penetration_Testing-red&logoColor=black) 
+![Skill](https://img.shields.io/badge/Skill-Virtualization-red)
+![Tool](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
+![NetworkWalks](https://img.shields.io/badge/NetworkWalks-b22222)
+![Chosen Mfonabasi](https://img.shields.io/badge/Chosen_Mfonabasi-red)
 
 📌 Project Overview
 
