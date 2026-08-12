@@ -304,7 +304,7 @@ This laboratory is intended strictly for education purposes only.
 ## 👤 Author
 
 **Chosen Mfonabasi**  
-Cybersecurity Intern 
+Cybersecurity Intern(Networkwalks Academy- Batch B082)
 
 LinkedIn: www.linkedin.com/in/chosen-mfonabasi-5a297a3b7
 
