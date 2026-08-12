@@ -66,11 +66,12 @@ It can be used for activities such as:
 ---
 
 ## 🏗️ Lab Architecture
-The setup consists of my Host OS running Ubuntu Linux district. Inside Ubuntu, VirtualBox hosts two virtual machines — Kali Linux — connected through a NAT Network for isolated cybersecurity practice.
+The setup consists of my Host OS running Ubuntu Linux distro. Inside Ubuntu, VirtualBox hosts one virtual machines — Kali Linux — connected through a NAT Network for isolated cybersecurity practice.
+
 <img width="1920" height="1079" alt="1-Screenshot-VB-environment" src="https://github.com/user-attachments/assets/bb91501f-b97c-41e3-b9fe-9492135c85de" />
 
 
-Additional target machines can be added to the same virtual network in future projects.
+Additional target machines can be added to the same virtual machine in future projects.
 
 ---
 
