@@ -5,18 +5,19 @@
 <p align="center"><strong>Building an isolated virtual lab for penetration testing and ethical hacking practice</strong></p>
 
 <div align="center">
-
-![Skill](https://img.shields.io/badge/Skill-Cybersecurity-red)
-![Ver](https://img.shields.io/badge/Ver-Virtualbox_v7.2-blue)
-![Kali](https://img.shields.io/badge/Kali-Linux-blueviolet?logo=kalilinux&logoColor=white)
-![Version](https://img.shields.io/badge/v2026.1-orange)
-![Network](https://img.shields.io/badge/Network-10.0.0.0%2F24-14b8a6)
-![Pentest](https://img.shields.io/badge/Penetration_Testing-red?logo=kalilinux&logoColor=black) 
-![Skill](https://img.shields.io/badge/Skill-Virtualization-red)
-![Tool](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
-![NetworkWalks](https://img.shields.io/badge/NetworkWalks-b22222)
-![Hacking](https://img.shields.io/badge/Ethical_Hacking-yellow?logo=kalilinux&logoColor=black)
-![Chosen Mfonabasi](https://img.shields.io/badge/Chosen_Mfonabasi-red)
+  
+**![Skill](https://img.shields.io/badge/Skill-Cybersecurity-red)**
+**![Ver](https://img.shields.io/badge/Ver-Virtualbox_v7.2-blue)**
+**![Kali](https://img.shields.io/badge/Kali-Linux-blueviolet?logo=kalilinux&logoColor=white)**
+**![Version](https://img.shields.io/badge/v2026.1-orange)**
+**![Network](https://img.shields.io/badge/Network-10.0.0.0%2F24-14b8a6)**
+**![Pentest](https://img.shields.io/badge/Penetration_Testing-red?logo=kalilinux&logoColor=black)**
+**![Skill](https://img.shields.io/badge/Skill-Virtualization-red)**
+**![Tool](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)**
+**![NetworkWalks](https://img.shields.io/badge/NetworkWalks-b22222)**
+**![Hacking](https://img.shields.io/badge/Ethical_Hacking-green?logo=kalilinux&logoColor=black)**
+**![Skill](https://img.shields.io/badge/Skill-Linux-red?logo=linux&logoColor=blue)**
+**![Chosen Mfonabasi](https://img.shields.io/badge/Chosen_Mfonabasi-red)**
 
 
 </div>
@@ -204,8 +205,6 @@ Documenting problems is an important part of the project.
 
 ### Problem 1. Internet Connectivity After Static IP Configuration
 
-### Problem 1. Internet Connectivity After Static IP Configuration
-
 After manually configuring the IPv4 settings, Internet connectivity may fail depending on the Kali/NetworkManager configuration.
 
 One workaround used during this lab was:
@@ -217,6 +216,41 @@ sudo nmcli connection modify "Wired connection 1" ipv4.dad-timeout 0
 The network connection was then restarted/rebooted and connectivity was tested again.
 
 > **Important:** Network interface and connection names may differ between systems. Students should first identify their actual connection name before running an `nmcli` command.
+
+### Problem 2 — DNS Not Working in Kali Linux VM
+
+**Problem:** After configuring the network, my Kali VM had no working internet access through domain names. The IP address was working but DNS resolution was failing.
+
+**Error:**
+
+```
+ping: google.com: Temporary failure in name resolution
+```
+
+**What I noticed:** Pinging 8.8.8.8 directly worked fine, which meant my internet connection was active. However, pinging google.com failed because DNS was not resolving domain names to IP addresses.
+
+**Solution:** I manually configured the DNS servers using nmcli:
+
+```
+sudo nmcli connection modify "Wired connection 1" ipv4.dns "1.1.1.1 8.8.8.8" ipv4.ignore-auto-dns yes
+sudo nmcli connection down "Wired connection 1"
+sudo nmcli connection up "Wired connection 1"
+```
+
+**Verification:**
+
+```
+ping -c 4 google.com
+```
+
+**Result:**
+
+```
+64 bytes from google.com: icmp_seq=1 ttl=118
+4 packets transmitted, 4 received, 0% packet loss
+```
+
+After setting the DNS servers manually to 1.1.1.1 and 8.8.8.8, domain name resolution started working correctly.
 
 ---
 
