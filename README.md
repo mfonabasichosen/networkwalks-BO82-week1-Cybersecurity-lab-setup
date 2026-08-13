@@ -1,4 +1,4 @@
-<h1 align="center">🔐 Cybersecurity Lab Environment Setup</h1>
+<h1 align="center">🔐💻Cybersecurity Lab Environment Setup</h1>
 
 ---
 
@@ -6,19 +6,19 @@
 
 <div align="center">
   
-**![Skill](https://img.shields.io/badge/Skill-Cybersecurity-red)**
-**![Ver](https://img.shields.io/badge/Ver-Virtualbox_v7.2-blue)**
-**![Kali](https://img.shields.io/badge/Kali-Linux-blueviolet?logo=kalilinux&logoColor=white)**
-**![Version](https://img.shields.io/badge/v2026.1-orange)**
+**![Skill](https://img.shields.io/badge/Cybersecurity-red?logo=hackthebox&logocolor=white)**
+**![Virtualbox](https://img.shields.io/badge/-Virtualbox_v7.2-blue?logo=virtualbox&logocolor=white)**
+**![Kali](https://img.shields.io/badge/Kali_Linux_v2026.1-7C3AED?logo=kalilinux&logoColor=white)**
 **![Network](https://img.shields.io/badge/Network-10.0.0.0%2F24-14b8a6)**
 **![Pentest](https://img.shields.io/badge/Penetration_Testing-red?logo=kalilinux&logoColor=black)**
-**![Skill](https://img.shields.io/badge/Skill-Virtualization-red)**
+**![Skill](https://img.shields.io/badge/Virtualization-blue?logo=virtualbox&logocolor=white)**
 **![Tool](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)**
 **![NetworkWalks](https://img.shields.io/badge/NetworkWalks-b22222)**
 **![Hacking](https://img.shields.io/badge/Ethical_Hacking-green?logo=kalilinux&logoColor=black)**
 **![Skill](https://img.shields.io/badge/Skill-Linux-red?logo=linux&logoColor=blue)**
-**![Chosen Mfonabasi](https://img.shields.io/badge/Chosen_Mfonabasi-red)**
+**![Chosen Mfonabasi](https://img.shields.io/badge/Chosen_Mfonabasi-red?logo=github&logocolor=white)**
 
+**VirtualBox • Kali Linux • Virtual Networking • Linux Networking**
 
 </div>
 
