@@ -79,7 +79,7 @@ Additional target machines can be added to the same virtual machine in future pr
 
 | 🧩 Component | ⚙️ Configuration |
 |---|---|
-| 🖥️ Host OS | Ubuntu 24.04 |
+| 🖥️ Host OS | Ubuntu 26.04 |
 | 🧠 Host RAM | 8 GB |
 | ⚡ Processor | Intel Core i7 |
 | 📦 Hypervisor | VirtualBox 7.2 |
